@@ -1,0 +1,30 @@
+{
+  "name": "hookcatch",
+  "version": "1.0.0",
+  "description": "Webhook testing and cron monitoring made simple - catch, inspect, and monitor all your webhooks and scheduled jobs",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["webhook", "testing", "cron", "monitoring", "developer-tools", "saas"],
+  "author": "HookCatch",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "better-sqlite3": "^9.2.2",
+    "nanoid": "^5.0.4",
+    "stripe": "^14.10.0",
+    "nodemailer": "^6.9.8",
+    "node-cron": "^3.0.3",
+    "axios": "^1.6.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
